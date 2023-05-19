@@ -59,7 +59,7 @@ package wide_alu_reg_pkg;
   } wide_alu_hw2reg_ctrl2_reg_t;
 
   typedef struct packed {
-    logic [1:0]  d;
+    logic [1:0]  d;wide_alu_reg2hw_t
   } wide_alu_hw2reg_status_reg_t;
 
 
