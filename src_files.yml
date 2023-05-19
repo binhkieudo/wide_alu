@@ -3,10 +3,10 @@ wide_alu:
   - ../register_interface/include
   - ../register_interface/vendor/lowrisc_opentitan/include
   files:
-  - wide_alu_reg_pkg.sv
-  - wide_alu_reg_top.sv
-  - wide_alu_pkg.sv
-  - wide_alu.sv
-  - wide_alu_top.sv
+  - rtl/wide_alu_reg_pkg.sv
+  - rtl/wide_alu_reg_top.sv
+  - rtl/wide_alu_pkg.sv
+  - rtl/wide_alu.sv
+  - rtl/wide_alu_top.sv
   vlog_opts:
   - -L register_interface_lib
