@@ -4,7 +4,7 @@
 module wide_alu_top
     #(
       parameter int unsigned AXI_ADDR_WIDTH = 32,
-      localparam int unsigned AXI_DATA_WIDTH = 32,
+      parameter int unsigned AXI_DATA_WIDTH = 32,
       parameter int unsigned AXI_ID_WIDTH,
       parameter int unsigned AXI_USER_WIDTH
       )
